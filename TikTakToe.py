@@ -1,6 +1,5 @@
 import random
 import time
-import sys
 
 
 reset = False
@@ -95,36 +94,43 @@ while reset == False:
         print ()
         print ("You won the game. \nYou are a very very good player. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
     if "A1" in usedfieldplayer and "B1" in usedfieldplayer and "C1" in usedfieldplayer:
         print ()
         print ("You won the game. \nYou are a very very good player. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
     
     if "A1" in usedfieldplayer and "B2" in usedfieldplayer and "C3" in usedfieldplayer:
         print ()
         print ("You won the game. \nYou are a very very good player. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
     if "B1" in usedfieldplayer and "B2" in usedfieldplayer and "B3" in usedfieldplayer:
         print ()
         print ("You won the game. \nYou are a very very good player. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
     if "C1" in usedfieldplayer and "C2" in usedfieldplayer and "C3" in usedfieldplayer:
         print ()
         print ("You won the game. \nYou are a very very good player. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
     if "A3" in usedfieldplayer and "B3" in usedfieldplayer and "C3" in usedfieldplayer:
         print ()
         print ("You won the game. \nYou are a very very good player. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
     if "C1" in usedfieldplayer and "B2" in usedfieldplayer and "A3" in usedfieldplayer:
         print ()
         print ("You won the game. \nYou are a very very good player. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
 
 
@@ -139,34 +145,43 @@ while reset == False:
         print ()
         print ("The computer won the game. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
     if "A1" in usedfield and "B1" in usedfield and "C1" in usedfield:
         print ()
         print ("The computer won the game. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
     
     if "A1" in usedfield and "B2" in usedfield and "C3" in usedfield:
         print ()
         print ("The computer won the game. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
     if "B1" in usedfield and "B2" in usedfield and "B3" in usedfield:
         print ()
         print ("The computer won the game. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
     if "C1" in usedfield and "C2" in usedfield and "C3" in usedfield:
         print ()
         print ("The computer won the game. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
     if "A3" in usedfield and "B3" in usedfield and "C3" in usedfield:
         print ()
         print ("The computer won the game. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
     if "C1" in usedfield and "B2" in usedfield and "A3" in usedfield:
         print ()
         print ("The computer won the game. \nTo restart the game quit it and start it again.")
         reset = True
+        time.sleep(3)
 
+    if len(availablefield) == 0 and reset == False:
+        print ("Its draw! Nobody won.")
